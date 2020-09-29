@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  background: #B03500 url(images/overlay.png) repeat;
+  height: 402.6px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 190px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-button {
+    background-color: #B03500;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2em;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.App-button:hover{
+padding: 15px 32px;
+}
+
+.App-button:active{
+padding: 15px 32px;
+}
+
+.App-user {
+  background-color: blue;
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
+
+}
+//App Button
+
+.App-form{
+  padding:10px;
+  border:2px solid #3498db;
+  background:#F0F8FF;
+  border-radius:15px;
+  display:none;
+
+}
+
+.App-formButton2{
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:20px;
+ 
+}
+
+.App-formButton2:hover{
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.App-b{
+  color:#3498db;
+}
+.App-button2{
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.App-button2:hover{
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
